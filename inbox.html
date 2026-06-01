@@ -714,6 +714,7 @@
 
 <header>
     <div id="logo-container">
+        <!-- קידוד הרווחים לשם תאימות GitHub -->
         <img src="ויזה%20לוגו%20סופי%20(14).jpg" alt="AMS VISA" class="logo" id="headerLogo" onerror="this.onerror=null; this.style.display='none'; document.getElementById('logoTextFallback').style.display='inline-block';">
         <span id="logoTextFallback" class="logo-text-fallback" style="display: none;">AMS VISA</span>
     </div>
@@ -721,6 +722,7 @@
 
 <div class="hero">
     <div class="hero-subtitle">
+        <!-- קידוד הרווחים לשם תאימות GitHub -->
         <img src="Amsalem_Logo%20NO%20SLOGAN%20(10).png" alt="Amsalem Logo" class="subtitle-logo" onerror="this.onerror=null; this.style.display='none';">
         <span>שירותי ויזות ואשרות מבית אמסלם טורס</span>
     </div>
@@ -1179,7 +1181,7 @@
     function submitLead(mailType) {
         const form = document.getElementById('leadForm');
         
-        // בדיקת תקינות השדות (האם הזינו שם, טלפון, וכו')
+        // בדיקת תקינות השדות
         if (!form.checkValidity()) {
             form.reportValidity();
             return;
